@@ -24,9 +24,9 @@ Then I started off by adding the data.txt file to the initial project and then c
 
 I then I created a file Main.kt to get the reference to the data.txt file and the ProductParser file. 
 
-Next I needed to be able to read the file and the parse the contents. I then created a Type file to separate the Clearance, Normal, and price in cart. After that I used a forEachLine to specify what I want the file to traverse the data and while doing so to udpate the resultMap. That was then thrown in a try-catch-finally block. 
+Next I needed to be able to read the file and the parse the contents. I then created a Type file to separate the Clearance, Normal, and price in cart. After that I used a forEachLine to specify what I want the file to traverse the data and while doing so to udpate the resultMap. That was then thrown in a try-catch-finally block to cover some error handling. 
 
-After that I created an extentsion function that updates the map based on the clearance Price it is provided. depending on wether the clearance price is the same as normal price or it has a clearance.  Then I used this[key] to apply the finally apply the updates. 
+After that I created an extentsion function that updates the map based on the clearance Price it is provided. depending on wether the clearance price is the same as normal price or it has a clearance.  Then I used this[key] to apply the finally apply the updates. Using the extension function seemed like the best course of action since using that sures the data I want to manipulate is the correct data.
 
 Next I created another extension function that will iterate through the map. Then it will format and print each item in the map based on the information that was achieved from the above funtions. I used StringBuilder() for this because it seemed like the best way to achieve this since it allows me to modify strings. From there a formatted it the way the solution called for. 
 ## Results
