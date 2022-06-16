@@ -29,12 +29,12 @@ Next I needed to be able to read the file and the parse the contents. I then cre
 After that I created an extentsion function that updates the map based on the clearance Price it is provided. depending on wether the clearance price is the same as normal price or it has a clearance.  Then I used this[key] to apply the finally apply the updates. 
 
 Next I created another extension function that will iterate through the map. Then it will format and print each item in the map based on the information that was achieved from the above funtions. I used StringBuilder() for this because it seemed like the best way to achieve this since it allows me to modify strings. From there a formatted it the way the solution called for. 
-## results
+## Results
 ![terminal results](screenshots/console_results.png)
 
 
 Finally I implemented a unit Test. I added a test to see for if it would fail and if it would be successful.
-## results of tests
+## Results of Tests
 ![test coverage](screenshots/test_coverage.png)
 
 ![test results](screenshots/test_results.png)
